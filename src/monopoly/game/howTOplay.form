@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="605" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="btn_ok" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="585" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jScrollPane2" pref="244" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Component id="btn_ok" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btn_ok">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="OK"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_okActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextPane" name="jTextPane1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="                                                        MON&#xd6;PLY  &#xa;OBJECT: The Object of the game is to become the wealthiest player through buying, renting and selling property. &#xa; EQUIPMENT: The equipment consists a board,2 dice ,tokens ,32 houses and  Hotels.There  are 16 chance and 16 community chest cards, 28 Title Deed card (one each property ), and play money. &#xa; THE PANK: Besides the money of Bank Holds the title deeds ,and the houses and  hotels prior to purchase by the players.The Pank pays salaries and  bonuses.It sells and auctions properties and hands out the proper  title deed cards when purchased by a player ,it also sells houses and hotels to the players and loans money when required on mortgages. &#xa;The Bank collect all Taxes, fines ,loans and interest, and the price of all properties which it sells and actions. The Bank &quot;never goes broke&quot; if the Bank runs out of money,it may issue as much as needed by writing on any ordinary paper. &#xa; PREPARATION: Place the board on a table. Place the Chance and Community Chest cards on their allotted spaces on the board. Each player chooses one token to represent him/her while traveling around the board.&#xa; Each player is given $1500 divided as follows: 2 each of $500&apos;s. $100&apos;s and $50&apos;s;6 $20&apos;s; 5 each Of $10&apos;s, $5&apos;s and $1 &apos;s. All remaining money and other equipment go to the Bank.  &#xa;THE PLAY: Starting with the Banker, each player in turn throws the dice. &#xa;The player With the highest total starts the play: Place your token on the corner marked &quot;GO,&quot; throw the dice and move your token in the direction of the arrow the number Of spaces indicated by the dice. After you have completed your play, the turn passes to the left.&#xa; The tokens remain on the spaces occupied and proceed from that point on the player&apos;s next turn.&#xa;TWO or more tokens may rest on the same space at the same time. According to the space your token reaches, you may be entitled to buy real estate or other properties&#x2014;or be obliged to pay rent, pay taxes. draw a Chance or Community Chest card, &quot;Go to Jail,&quot; etc.  &#xa;GO: Each time a player&apos;s token lands on or passes over GO, whether by throw of the dice or by drawing a card, the Banker pays him/her a $200 salary.&#xa; The $200 is paid only once each time around the board. However, if you pass GO on the throw Of the dice and land two spaces beyond it on Community Chest, or 7 spaces beyond it on Chance, and you draw the &quot;Advance to GO&quot; card, you collect $200 for passing GO the first time and another $200 for reaching it the second time by instructions on the card. &#xa; BUYING PROPERTY Whenever you land on an unowned property you may buy that property from the Bank at its printed price  You receive the Title Deed card showing ownership; place it face up in front Of you.&#xa; If you do not Wish to buy the property, the Banker sells it at auction to the highest bidder The buyer pays to the Bank the amount Of the bid in cash and receives the Title Deed card for that property. &#xa;Any player, including the one declined the option of buying it at the printed price, may bid. Bidding may Start at any price.  &#xa;PAYING RENT: When you land on property that is owned by another player, the owner collects rent from you in accordance with the list printed on its Title Deed card. &#xa;If the property is mortgaged, no rent can be collected. &#xa;When a property is mortgaged, its Title Deed card is placed face down in front Of the owner. &#xa;It is an advantage to hold all the Title Deed cards in a color-group (i.e., Boardwalk and park Place, or Connecticut ,Vermont and Oriental Avenues) because the owner may then charge double rent for unimproved properties in that color-group.&#xa; This rule applies to unmortgaged properties even if another property in that color-group is mortgaged.&#xa; It is even more advantageous to have houses or hotels on properties because rents are much higher than for unimproved properties. &#xa;The owner may not collect the rent if he/she fails to ask for it before the second player following throws the dice. &#xa; CHANCE AND COMMUNITY CHEST: VVhen you land on either Of these spaces, take the top card from the deck indicated, follow the instructions and return the card face down to the bottom Of the deck. &#xa;The &quot;Get Out Of Jail Free&quot; card is held until used and then returned to the bottom of the deck. If the player who draws it does not wish to use it, he/she may sell it, at any time, to another player at a price agreeable to both.  &#xa;INCOME TAX: If you land here you have options: You may estimate your tax at $200 and pay the Bank, or you may pay Of your total worth to the Bank. Your total worth is all your cash on hand, printed prices Of mortgaged and unmortgaged properties and cost price Of all buildings you own. &#xa;You must decide which option you will take before you add up your total worth.  JAIL: You land in Jail when: ( l) your token lands on the space marked &quot;GO to Jail&quot;; (2) you draw a card marked &quot;GO to Jail&quot;. When you are sent to Jail you cannot collect your $200 salary in that move since, regardless Of Where your token is on the board, you must move it directly into Jail. Your turn ends when you are sent to Jail. If you are not &quot;sent&quot; to Jail but in the ordinary course of play land on that space, you are &quot;Just Visiting,&quot; you incur no penalty, and you move ahead in the usual manner on your next turn. You get Out of Jail by: (1) using the &quot;Get Out of Jail Free&quot; card if you have it; (2) purchasing the &quot;Cet Out of Jail Free&quot; card from another player and playing it; or (3) paying a fine Of $50 before you roll the dice on either of your next two turns. If you don&apos;t throe.&apos; doubles by your third turn, you must pay the $50 fine. You then get out of Jail and immediately move fonvard the number Of Spaces shown by your throw. Even though you are in Jail,you may buy or sell property, buy or sell houses and hotels and collect rents.  FREE PARKING: A player landing on this space does not receive any money, property or reward of any kind. This is just a &apos;free&quot; resting place.  MORTGAGES Unimproved properties can be mortgaged through the Bank at any time. Before an improved property can be mortgaged, all the buildings on all the properties Of its color-group must be sold back to the Bank at half price. The mortgage value is printed on each Title Deed card. No rent can be collected on mortgaged properties or utilities, but rent can be collected on unmortgaged properties in the Same group. In order to lift the mortgage, the Owner must pay the Bank the amount Of the mortgage plus 10% interest. When all the properties of a color-group are no longer mortgaged, the owner may begin to buy back houses at full price. The player who mortgages property retains possession Of and no other player may Secur&#x2022;2 it by lifting the mortgage from the Bank. However, the owner may sell this mortgaged property to another player at any agreed price. If you are the new owner, you may lift the mortgage at once if you wish by paying off the mortgage plus interest to the Bank, the mortgage is not lifted at once, you must pay the Bank interest when you buy the property and if you lift the mortgage later you must pay the Bank an additional 10% interest as well as the amount of the mortgage.  BANKRUPTCY: you are declared if you owe more than you can pay either to another player or to the Bank. If your must turn over to that ue and retire from the ent. if you own houses or return these to the Bank in exchange extent of one-half the amount paid for IS given to the creditor. If you have mortgaged property, you also turn this property over to your creditor but the new owner must at once pay the Bank the amount Of interest on the loan, which is  of the value of the propery_ The new owner who does this may then, at his/her option, pay the principal or hold the property until some later turn, then lift the mortgage. If he/she holds property in this way until a later turn, he/she must pay the interest again upon lifting the mortgage. Should you owe the Bank. instead of another player, more than you can pay (because of taxes or penalties) even by selling Off buil&#xfc;-.g-s and mortgaging propery. you must turn over a&quot; assets to the Bank- In this case, the Bank immediately sells by auction all property So taken. except buildings. A bankrupt player must immediately retire from the game The last player left in the game wins.  MISCELLANEOUS: Money can only be loaned to a player by the Bank and then only by mot-caging property. NO player may borrow from or lend money to another player.               "/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
